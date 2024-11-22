@@ -8,7 +8,11 @@ using namespace std;
 f1()vector
 {
     vector<string> array;
-    ifstream in (labagitt.txt);
+    ifstream in ("labagitt.txt");
+    if (in.is_open()) {
+        }
+
+    }
 }
 
 
