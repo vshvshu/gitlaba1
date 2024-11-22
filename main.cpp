@@ -13,6 +13,7 @@ f1()
 
 void f2()
 {
+    vector <string> array;
 
 }
 
