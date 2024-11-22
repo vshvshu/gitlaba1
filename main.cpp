@@ -8,7 +8,7 @@ using namespace std;
 f1()vector
 {
     vector<string> array;
-
+    ifstream in (labagitt.txt);
 }
 
 
