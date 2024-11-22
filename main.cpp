@@ -5,25 +5,25 @@
 #include <vector>
 
 using namespace std;
-fun1()
+f1()
 {
 
 }
 
 
-void fun2()
+void f2()
 {
 
 }
 
-void fun3()
+void f3()
 {
 
 }
 
 int main()
 {
-    fun1();
-    fun2();
-    fun3();
+    f1();
+    f2();
+    f3();
 }
