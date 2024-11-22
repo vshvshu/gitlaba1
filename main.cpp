@@ -18,6 +18,9 @@ void f2()
 
 void f3(vector <string> array)
 {
+ifstream in("labagitt.txt");
+ofstream out;
+out.open("out_git.txt");
 
 }
 
