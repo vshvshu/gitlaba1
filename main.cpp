@@ -10,6 +10,7 @@ f1()vector
     vector<string> array;
     ifstream in ("labagitt.txt");
     if (in.is_open()) {
+            string s;
         }
 
     }
