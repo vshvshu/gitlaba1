@@ -5,24 +5,18 @@
 #include <vector>
 
 using namespace std;
-f1()vector
+vector<string> f1()
 {
     vector<string> array;
     ifstream in ("labagitt.txt");
     if (in.is_open()) {
         string s;
-        while (getline(in,s)){
+        while (getline(in, s)){
             array.push_back(s);
-        }
         }
     return array;
     }
 }
-
-
-
-
-
 
 void f2()
 {
@@ -36,7 +30,8 @@ void f3()
 
 int main()
 {
-    f1();
+    vector <string> vector3 = f1();
     f2();
     f3();
+    return 0;
 }
