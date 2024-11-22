@@ -10,9 +10,22 @@ f1()
 
 }
 
-
 void f2()
 {
+    vector <string> array;
+    ifstream in("txt.txt");
+    if (in.is_open())
+    {
+        string s;
+        while(getline(in, s))
+        {
+            array.push_back(s);
+        }
+        for (const auto& str : array)
+        {
+            cout << str << endl;
+        }
+    }
 
 }
 
