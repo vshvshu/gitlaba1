@@ -5,10 +5,15 @@
 #include <vector>
 
 using namespace std;
-f1()
+f1()vector
 {
+    vector<string> array;
 
 }
+
+
+
+
 
 
 void f2()
