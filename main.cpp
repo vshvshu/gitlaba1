@@ -13,7 +13,7 @@ f1()
 void f2()
 {
     vector <string> array;
-    ifstream in("txt.txt");
+    ifstream in("labagitt.txt");
     if (in.is_open())
     {
         string s;
