@@ -10,7 +10,6 @@ f1()
 
 }
 
-
 void f2()
 {
     vector <string> array;
@@ -21,6 +20,10 @@ void f2()
         while(getline(in, s))
         {
             array.push_back(s);
+        }
+        for (const auto& str : array)
+        {
+            cout << str << endl;
         }
     }
 
