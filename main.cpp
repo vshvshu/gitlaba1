@@ -10,9 +10,12 @@ f1()vector
     vector<string> array;
     ifstream in ("labagitt.txt");
     if (in.is_open()) {
-            string s;
+        string s;
+        while (getline(in,s)){
+            array.push_back(s);
         }
-
+        }
+    return array;
     }
 }
 
