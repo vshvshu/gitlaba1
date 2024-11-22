@@ -16,7 +16,7 @@ void f2()
 
 }
 
-void f3()
+void f3(vector <string> array)
 {
 
 }
